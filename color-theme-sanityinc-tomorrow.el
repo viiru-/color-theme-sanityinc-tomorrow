@@ -1660,6 +1660,26 @@ names to which it refers are bound."
       (ztreep-header-face (:forground ,yellow :weight bold))
       (ztreep-leaf-face (:foreground ,aqua))
       (ztreep-node-face (:foreground ,foreground))
+
+      ;; calfw
+      (calfw-title-face (:foreground ,blue :weight bold))
+      (calfw-header-face (:foreground ,aqua))
+      (calfw-sunday-face (:foreground ,red))
+      (calfw-saturday-face (:foreground ,red))
+      (calfw-holiday-face (:foreground ,orange))
+      (calfw-grid-face (:foreground ,comment))
+      (calfw-default-content-face (:foreground ,foreground))
+      (calfw-periods-face (:foreground ,yellow))
+      (calfw-day-title-face (:foreground ,blue :weight bold))
+      (calfw-default-day-face (:foreground ,foreground))
+      (calfw-annotation-face (:foreground ,green))
+      (calfw-disable-face (:foreground ,comment))
+      (calfw-today-title-face (:foreground ,yellow :weight bold :background ,highlight))
+      (calfw-today-face)
+      (calfw-calendar-hidden-face (:foreground ,comment))
+      (calfw-toolbar-face (:foreground ,foreground))
+      (calfw-toolbar-button-off-face (:foreground ,comment))
+      (calfw-toolbar-button-on-face (:foreground ,blue))
       ))))
 
 (eval-and-compile
