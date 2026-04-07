@@ -1675,7 +1675,7 @@ names to which it refers are bound."
       (calfw-annotation-face (:foreground ,green))
       (calfw-disable-face (:foreground ,comment))
       (calfw-today-title-face (:foreground ,yellow :weight bold :background ,highlight))
-      (calfw-today-face)
+      (calfw-today-face :background ,highlight)
       (calfw-calendar-hidden-face (:foreground ,comment))
       (calfw-toolbar-face (:foreground ,foreground))
       (calfw-toolbar-button-off-face (:foreground ,comment))
