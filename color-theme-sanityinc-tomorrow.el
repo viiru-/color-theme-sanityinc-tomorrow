@@ -694,7 +694,7 @@ names to which it refers are bound."
       (vhdl-speedbar-subprogram-face (:foreground ,green))
 
       ;; tab-bar (built-in)
-      (tab-bar (:height 1.2 :foreground ,comment :background ,highlight))
+      (tab-bar (:foreground ,comment :background ,highlight))
       (tab-bar-tab (:background ,contrast-bg
                                 :foreground ,purple
                                 :inverse-video nil
